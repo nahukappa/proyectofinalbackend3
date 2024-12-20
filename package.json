@@ -1,0 +1,27 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai-http": "^5.1.1",
+    "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
